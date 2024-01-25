@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "project_bank"
+version = "1.0"
+description = "bank operations"
+authors = ["Sergei Gorlanov <itserg90@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
